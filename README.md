@@ -7,6 +7,9 @@
     # do database migration
     make migrate env=default
     
+    # install dependency
+    go mod tidy
+    
     # running
     make run env=default
 ```
