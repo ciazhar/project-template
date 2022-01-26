@@ -1,0 +1,35 @@
+{
+  "rent_id": "",
+  "billing_price": "Rp. 300.000",
+  "start_time": "",
+  "end_time": "",
+  "is_complete": false,
+  "vehicles": [
+    {
+      "imei": "",
+      "sim": "",
+      "current_loc": [
+        "lat, long"
+      ],
+      "vehicle_images": [
+        "url, url"
+      ],
+      "vehicle_model": "m365",
+      "vehicle_brand": "Xiaomi",
+      "vehicle_plat_number": ""
+    },
+    {
+      "imei": "",
+      "sim": "",
+      "current_loc": [
+        "lat, long"
+      ],
+      "vehicle_images": [
+        "url, url"
+      ],
+      "vehicle_model": "m365",
+      "vehicle_brand": "Xiaomi",
+      "vehicle_plat_number": ""
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+# DEFAULT
+default-init:
+  dialect: postgres
+  datasource: user=postgres dbname=postgres sslmode=disable
+  dir: db/init
+  table: emobi_service_init
+
+default-factories:
+  dialect: postgres
+  datasource: user=postgres dbname=postgres sslmode=disable search_path=emobi_service
+  dir: db/factories
+  table: factories
+
+default-migrations:
+  dialect: postgres
+  datasource: user=postgres dbname=postgres sslmode=disable search_path=emobi_service
+  dir: db/migrations
+  table: migrations
+
+default-seeds:
+  dialect: postgres
+  datasource: user=postgres dbname=postgres sslmode=disable search_path=emobi_service
+  dir: db/seeds
+  table: seeds
+
+# DEV
+dev-init:
+  dialect: postgres
+  datasource: host=postgis user=postgres password=4dm1n-t4n994p!!! dbname=emobi_dev port=5432 sslmode=disable
+  dir: db/init
+  table: emobi_service_init
+
+dev-factories:
+  dialect: postgres
+  datasource: host=postgis user=postgres password=4dm1n-t4n994p!!! dbname=emobi_dev port=5432 sslmode=disable search_path=emobi_service
+  dir: db/factories
+  table: factories
+
+dev-migrations:
+  dialect: postgres
+  datasource: host=postgis user=postgres password=4dm1n-t4n994p!!! dbname=emobi_dev port=5432 sslmode=disable search_path=emobi_service
+  dir: db/migrations
+  table: migrations
+
+dev-seeds:
+  dialect: postgres
+  datasource: host=postgis user=postgres password=4dm1n-t4n994p!!! dbname=emobi_dev port=5432 sslmode=disable search_path=emobi_service
+  dir: db/seeds
+  table: seeds
+
+# PROD
+prod-init:
+  dialect: postgres
+  datasource: host=postgis user=postgres password=4dm1n-t4n994p!!! dbname=emobi_prod port=5432 sslmode=disable
+  dir: db/init
+  table: emobi_service_init
+
+prod-factories:
+  dialect: postgres
+  datasource: host=postgis user=postgres password=4dm1n-t4n994p!!! dbname=emobi_prod port=5432 sslmode=disable search_path=emobi_service
+  dir: db/factories
+  table: factories
+
+prod-migrations:
+  dialect: postgres
+  datasource: host=postgis user=postgres password=4dm1n-t4n994p!!! dbname=emobi_prod port=5432 sslmode=disable search_path=emobi_service
+  dir: db/migrations
+  table: migrations
+
+prod-seeds:
+  dialect: postgres
+  datasource: host=postgis user=postgres password=4dm1n-t4n994p!!! dbname=emobi_prod port=5432 sslmode=disable search_path=emobi_service
+  dir: db/seeds
+  table: seeds
